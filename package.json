@@ -6,27 +6,41 @@
   "author": "Guillermo Rauch <guillermo@learnboost.com>",
   "homepage": "https://github.com/LearnBoost/engine.io",
   "contributors": [
-    { "name": "Eugen Dueck", "web": "https://github.com/EugenDueck" },
-    { "name": "Afshin Mehrabani", "web": "https://github.com/afshinm" },
-    { "name": "Christoph Dorn", "web": "https://github.com/cadorn" },
-    { "name": "Mark Mokryn", "email": "mokesmokes@gmail.com"}
+    {
+      "name": "Eugen Dueck",
+      "web": "https://github.com/EugenDueck"
+    },
+    {
+      "name": "Afshin Mehrabani",
+      "web": "https://github.com/afshinm"
+    },
+    {
+      "name": "Christoph Dorn",
+      "web": "https://github.com/cadorn"
+    },
+    {
+      "name": "Mark Mokryn",
+      "email": "mokesmokes@gmail.com"
+    }
   ],
   "license": "MIT",
   "dependencies": {
-    "debug": "2.1.3",
-    "ws": "0.7.1",
-    "engine.io-parser": "1.2.1",
+    "accepts": "1.1.4",
     "base64id": "0.1.0",
-    "accepts": "1.1.4"
+    "debug": "2.1.3",
+    "engine.io-parser": "1.2.1",
+    "ws": "^0.7.2"
   },
   "devDependencies": {
-    "mocha": "1.12.0",
+    "engine.io-client": "cchamberlain/engine.io-client",
     "expect.js": "0.2.0",
-    "superagent": "0.15.4",
-    "engine.io-client": "automattic/engine.io-client#4f87aa",
-    "s": "0.1.1"
+    "mocha": "1.12.0",
+    "s": "0.1.1",
+    "superagent": "0.15.4"
   },
-  "scripts": { "test" : "make test" },
+  "scripts": {
+    "test": "make test"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Automattic/engine.io.git"
